@@ -10,13 +10,13 @@ const botao3 = document.getElementById("btn3");
 
 // Adicionar eventos de clique
 botao1.addEventListener("click", () => {
-    paragrafo1.textContent = "O texto do parágrafo 1 foi alterado!";
+    paragrafo1.textContent = "Programação só estressa!";
 });
 
 botao2.addEventListener("click", () => {
-    paragrafo2.textContent = "Agora o parágrafo 2 mudou!";
+    paragrafo2.textContent = "HTML parecia fácil! Michel Tartas - 2025";
 });
 
 botao3.addEventListener("click",  () => {
-    paragrafo3.textContent = "Texto novo no parágrafo 3!";
+    paragrafo3.textContent = "Já ta dando pra desistir?!";
 });
