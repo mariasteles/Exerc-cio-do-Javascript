@@ -1,0 +1,11 @@
+/* Quadrado colorido */
+  #quadrado {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}
+
+/* Classe que esconde */
+.escondido {
+    display: none;
+}
