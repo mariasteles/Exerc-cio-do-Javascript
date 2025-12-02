@@ -1,0 +1,34 @@
+/* style.CSS */
+
+/* CSS Básico para visualização */
+#imagem-principal {
+    width: 400px; /* Tamanho da imagem grande */
+    height: auto;
+    border: 2px solid #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.galeria-miniaturas {
+    display: flex;
+    gap: 10px;
+}
+
+.mini {
+    width: 80px; /* Tamanho das miniaturas */
+    height: 80px;
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    cursor: pointer; /* Indica que é clicável */
+    border: 1px solid #ccc;
+    transition: border 0.2s;
+}
+
+.mini:hover {
+    border-color: #007bff;
+}
+
+/* Estilo para a miniatura atualmente selecionada (ativa) */
+.mini.ativa {
+    border: 3px solid #28a745; /* Borda de destaque (verde) */
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+}
