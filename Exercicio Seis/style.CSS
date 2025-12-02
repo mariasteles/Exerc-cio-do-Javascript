@@ -1,0 +1,19 @@
+/* Estilo padrão */
+   body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+/* Tema Dark */
+.dark {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
