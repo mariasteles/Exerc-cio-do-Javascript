@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolução de Personagem - RPG</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h1>⚔️ Distribuição de Atributos 🛡️</h1>
+        
+        <div class="points-area">
+            Pontos Restantes: 
+            <span id="remainingPoints" class="highlight">10</span>
+        </div>
+        
+        <div class="attributes-area" id="attributesArea">
+            
+            <div class="attribute" data-name="Força">
+                <span class="attribute-name">Força:</span>
+                <span id="strengthValue" class="attribute-value">0</span>
+                <button class="btn-decrease" data-attribute="strength">–</button>
+                <button class="btn-increase" data-attribute="strength">+</button>
+            </div>
+            
+            <div class="attribute" data-name="Agilidade">
+                <span class="attribute-name">Agilidade:</span>
+                <span id="agilityValue" class="attribute-value">0</span>
+                <button class="btn-decrease" data-attribute="agility">–</button>
+                <button class="btn-increase" data-attribute="agility">+</button>
+            </div>
+
+            <div class="attribute" data-name="Inteligência">
+                <span class="attribute-name">Inteligência:</span>
+                <span id="intelligenceValue" class="attribute-value">0</span>
+                <button class="btn-decrease" data-attribute="intelligence">–</button>
+                <button class="btn-increase" data-attribute="intelligence">+</button>
+            </div>
+
+        </div>
+        
+        <button id="confirmButton">Confirmar Distribuição</button>
+        
+        <div id="resultArea" class="result-area"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
