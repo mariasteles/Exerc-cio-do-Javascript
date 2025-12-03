@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo de JavaScript</title>
+    <link rel="stylesheet" href="./style.CSS">
+  
+</head>
+<body>
+    <h1>🧠 Quiz de JavaScript Básico</h1>
+    
+    <form id="quizForm">
+        <div class="quiz-section">
+            <p class="question-text">1. Qual método do DOM é usado para obter um elemento por seu ID?</p>
+            <label class="alternative-label">
+                <input type="radio" name="q1" value="a"> getElementByClass
+            </label>
+            <label class="alternative-label">
+                <input type="radio" name="q1" value="b" data-correct="true"> getElementById
+            </label>
+            <label class="alternative-label">
+                <input type="radio" name="q1" value="c"> querySelectorAll
+            </label>
+        </div>
+
+        <div class="quiz-section">
+            <p class="question-text">2. Qual operador JavaScript verifica valor E tipo?</p>
+            <label class="alternative-label">
+                <input type="radio" name="q2" value="a"> ==
+            </label>
+            <label class="alternative-label">
+                <input type="radio" name="q2" value="b" data-correct="true"> ===
+            </label>
+            <label class="alternative-label">
+                <input type="radio" name="q2" value="c"> =!
+            </label>
+        </div>
+
+        <div class="quiz-section">
+            <p class="question-text">3. Qual propriedade oculta um elemento no DOM via CSS?</p>
+            <label class="alternative-label">
+                <input type="radio" name="q3" value="a" data-correct="true"> style.display = "none"
+            </label>
+            <label class="alternative-label">
+                <input type="radio" name="q3" value="b"> style.visibility = "hidden"
+            </label>
+            <label class="alternative-label">
+                <input type="radio" name="q3" value="c"> innerHTML = ""
+            </label>
+        </div>
+        
+        <button type="button" id="finishButton">Finalizar Quiz</button>
+    </form>
+    
+    <div id="resultArea">
+        Clique em "Finalizar Quiz" para ver sua pontuação!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
