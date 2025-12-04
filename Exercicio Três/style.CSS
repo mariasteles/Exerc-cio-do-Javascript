@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    max-width: 400px;
+    margin: 40px auto;
+  }
+  
+  input {
+    padding: 8px;
+    margin: 5px 0;
+    width: 95%;
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin-top: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #eee;
+    padding: 8px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+  }  
